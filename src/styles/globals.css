@@ -1,33 +1,102 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600&display=swap");
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background: #fff;
+  --text-primary: #404e4d;
+  --text-secondary: #5aa342;
+  --background-card: #f5fdf7;
+  --text-card: #404e4d;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-size: 16px;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+header,
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--background);
+  color: var(--text-primary);
+}
+#__next {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh !important;
+  height: 100%;
+  font-weight: 200;
+  font-family: "Exo 2", sans-serif;
+}
+
+footer {
+  background-color: var(--text-primary);
+  color: var(--background-card);
+}
+
+.header-section {
+  margin-top: 1.5rem;
+  line-height: 3rem;
+}
+
+.section-spacer {
+  margin-top: 7rem;
+}
+h1,
+h2,
+.header-paragraph {
+  color: var(--text-secondary);
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+h2 {
+  font-size: 2.5rem;
+}
+.header-paragraph {
+  font-size: 1.725rem;
+  margin-bottom: 3.5rem;
+}
+.section-header {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.navElement {
+  border-bottom: solid 2px transparent;
+  transition: color 0.1s, border 0.25s;
+}
+.navElement:hover {
+  border-bottom: solid 2px var(--text-secondary);
+}
+.navElement:active {
+  color: var(--text-secondary);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--text-secondary) !important;
+  font-size: 20px !important;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 25px !important;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0 !important;
 }
