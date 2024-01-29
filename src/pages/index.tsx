@@ -1,23 +1,27 @@
 import pick from "lodash/pick";
 import { GetStaticPropsContext } from "next";
-import { useRouter } from "next/router";
 import { useTranslations } from "next-intl";
 
 import PageLayout from "@/components/PageLayout";
 
 import { Card } from "@/components/Card";
 import BoxImage from "@/components/BoxImage";
-import photoOne from "../images/photo_1.jpg";
-import photoTwo from "../images/photo_2.jpg";
-import photoThree from "../images/photo_3.jpg";
-import photoFour from "../images/photo_4.jpg";
+import mainPhoto from "../images/mainPhoto.jpg";
+import mainMobilePhoto from "../images/mainMobilePhoto.jpg";
+import desktopPhotoTwo from "../images/desktopPhoto_2.jpg";
+import mobilePhotoTwo from "../images/mobilePhoto2.jpg";
+import desktopPhotoThree from "../images/desktopPhoto_3.jpg";
+import mobilePhotoThree from "../images/mobilePhoto3.jpg";
+import desktopPhotoFour from "../images/desktopPhoto_4.jpg";
+import mobilePhotoFour from "../images/mobilePhoto4.jpg";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Head from "next/head";
+import useIsMobile from "@/hook/useIsMobile";
 
 export default function Index() {
   const t = useTranslations("Home");
-  const { locale } = useRouter();
+  const isMobile = useIsMobile();
 
   return (
     <>
@@ -32,7 +36,7 @@ export default function Index() {
         pageTitle={t("pageTitle")}
         metaDescription={t("description")}
       >
-        <main className='px-[10px] md:px-[40px]'>
+        <main className='px-[20px] md:px-[100px] md:mx:auto'>
           <section className='header-section'>
             <h1 className='text-center'>{t("title")}</h1>
           </section>
@@ -41,14 +45,14 @@ export default function Index() {
               {t("description")}
             </p>
             <BoxImage
-              src={photoOne}
+              src={isMobile ? mainMobilePhoto : mainPhoto}
               alt={t("photo1Alt")}
             />
           </section>
           <section className='flex flex-col items-center section-spacer lg:flex-row lg:items-start'>
             <div className='lg:grow lg:basis-[45%]'>
               <BoxImage
-                src={photoTwo}
+                src={isMobile ? mobilePhotoTwo : desktopPhotoTwo}
                 alt={t("photo2Alt")}
                 width={661}
               />
@@ -66,14 +70,14 @@ export default function Index() {
             <div className='flex flex-col lg:flex-row lg:justify-between '>
               <Card
                 className='mb-[15px] lg:mb-0 lg:basis-[45%]'
-                src={photoThree}
+                src={isMobile ? mobilePhotoThree : desktopPhotoThree}
                 alt='imageAlt'
                 cardTitle={t("liveQuality")}
                 cardDescription={t("ourProducts")}
               />
               <Card
                 className='lg:basis-[45%]'
-                src={photoFour}
+                src={isMobile ? mobilePhotoFour : desktopPhotoFour}
                 alt='imageAlt'
                 cardTitle={t("basedTherapies")}
                 cardDescription={t("ourConcentration")}

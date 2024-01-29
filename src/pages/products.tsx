@@ -1,10 +1,12 @@
 "use client";
 
+import CustomSwiper from "@/components/CustomSwiper";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import PageLayout from "@/components/PageLayout";
 import { CooperationPharmaceutical } from "@/icons/CooperationPharmaceutical";
 import { Warehouse } from "@/icons/Warehouse";
+import { productsPhotosToSwiper } from "@/images/imagesToSwipper";
 import { pick } from "lodash";
 import { GetStaticPropsContext } from "next";
 import { useTranslations } from "next-intl";
@@ -19,7 +21,7 @@ export default function Products() {
       metaDescription={t("description")}
       pageTitle={t("pageTitle")}
     >
-      <main className='px-[10px] md:px-[40px]'>
+      <main className='px-[20px] md:px-[100px]'>
         <section className='header-section section-spacer'>
           <h1 className='text-center'>{t("pageTitle")}</h1>
         </section>
@@ -43,12 +45,12 @@ export default function Products() {
               {t("cooperationPharmaceuticalBody")}
             </p>
           </div>
-          <div className='hidden lg:grow lg:basis-[30%] lg:flex items-center justify-end '>
+          <div className='hidden lg:grow lg:basis-[30%] lg:flex items-center justify-center '>
             <Warehouse />
           </div>
         </section>
         <section className='section-spacer flex '>
-          <div className='hidden lg:grow lg:basis-[30%] lg:flex items-center'>
+          <div className='hidden lg:grow lg:basis-[30%] lg:flex items-center justify-center'>
             <CooperationPharmaceutical />
           </div>
 
@@ -60,6 +62,10 @@ export default function Products() {
               {t("cooperationPharmacyBody")}
             </p>
           </div>
+        </section>
+
+        <section className='section-spacer flex '>
+          <CustomSwiper images={productsPhotosToSwiper} />
         </section>
       </main>
     </PageLayout>

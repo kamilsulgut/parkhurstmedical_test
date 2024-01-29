@@ -18,7 +18,7 @@ export default function Contact() {
       pageTitle={t("pageTitle")}
     >
       <main
-        className='items-center px-[10px] md:px-[40px] w-screen min-full'
+        className='items-center px-[20px] md:px-[100px] md:mx:auto w-screen min-full'
         style={{ minHeight: "100%" }}
       >
         <section className='header-section text-center'>

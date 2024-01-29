@@ -3,9 +3,11 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { IconCard } from "@/components/IconCard";
 import PageLayout from "@/components/PageLayout";
+import useIsMobile from "@/hook/useIsMobile";
 import { Ferry } from "@/icons/Ferry";
 import { Security } from "@/icons/Security";
 import { Transport } from "@/icons/Transport";
+import { desktopImagesToSwiper } from "@/images/imagesToSwipper";
 import pick from "lodash/pick";
 import { GetStaticPropsContext } from "next";
 import { useTranslations } from "next-intl";
@@ -14,6 +16,7 @@ import { useRouter } from "next/router";
 export default function About() {
   const t = useTranslations("About");
   const { locale } = useRouter();
+  const isMobile = useIsMobile();
 
   return (
     <PageLayout
@@ -21,7 +24,7 @@ export default function About() {
       metaDescription={t("metaDescription")}
       pageTitle={t("pageTitle")}
     >
-      <main className='px-[10px] md:px-[40px]'>
+      <main className='px-[20px] md:px-[100px] md:mx:auto'>
         <section className='header-section'>
           <h1 className='text-center'>{t("pageTitle")}</h1>
         </section>
@@ -41,9 +44,11 @@ export default function About() {
           </IconCard>
           <IconCard icon={<Transport />}>{t("transport")}</IconCard>
         </section>
-        <section>
-          <CustomSwiper />
-        </section>
+        {!isMobile && (
+          <section>
+            <CustomSwiper images={desktopImagesToSwiper} />
+          </section>
+        )}
       </main>
     </PageLayout>
   );

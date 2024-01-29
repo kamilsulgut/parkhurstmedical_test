@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <header className='sticky top-0 block z-10 px-[10px] md:px-[40px]'>
+    <header className='sticky top-0 block z-10 px-[20px] md:px-[100px] md:mx:auto'>
       <nav className='flex items-center justify-between uppercase'>
         <Link
           className='hidden md:flex justify-start w-full text-xl'
