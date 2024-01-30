@@ -1,6 +1,6 @@
 import { StaticImageData } from "next/image";
 
-import desktopPhoto1 from "./desktopPhoto_1.jpg";
+import desktopPhoto1 from "./dekstopPhoto_1.jpg";
 import desktopPhoto2 from "./desktopPhoto_2.jpg";
 import desktopPhoto3 from "./desktopPhoto_3.jpg";
 import desktopPhoto4 from "./desktopPhoto_4.jpg";

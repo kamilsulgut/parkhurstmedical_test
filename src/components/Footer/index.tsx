@@ -6,7 +6,7 @@ const Footer = () => {
   const t = useTranslations("Footer");
 
   return (
-    <footer className='w-full section-spacer py-[20px] px-[20px] md:px-[100px] md:mx:auto flex min-h-[100px]'>
+    <footer className='w-full section-spacer py-[60px] px-[10px] md:px-[40px] flex min-h-[100px]'>
       <div className='flex flex-col basis-1/4 '>
         <p>LOGO</p>
       </div>

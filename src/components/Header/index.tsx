@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <header className='sticky top-0 block z-10 px-[20px] md:px-[100px] md:mx:auto'>
+    <header className='sticky top-0 block z-10 px-[10px] md:px-[40px]'>
       <nav className='flex items-center justify-between uppercase'>
         <Link
           className='hidden md:flex justify-start w-full text-xl'
@@ -43,6 +43,12 @@ const Header = () => {
         </Link>
 
         <div className='hidden md:flex justify-end space-x-5 w-full'>
+          <Link
+            href={`/${locale === "pl" ? "" : "en"}`}
+            className='text-2xl text-center navElement'
+          >
+            {t("home")}
+          </Link>
           <Link
             href={`/${locale === "pl" ? "" : "en/"}about`}
             className='text-2xl text-center navElement'

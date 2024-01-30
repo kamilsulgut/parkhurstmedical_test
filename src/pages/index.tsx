@@ -6,7 +6,7 @@ import PageLayout from "@/components/PageLayout";
 
 import { Card } from "@/components/Card";
 import BoxImage from "@/components/BoxImage";
-import mainPhoto from "../images/mainPhoto.jpg";
+import desktopPhotoOne from "../images/dekstopPhoto_1.jpg";
 import mainMobilePhoto from "../images/mainMobilePhoto.jpg";
 import desktopPhotoTwo from "../images/desktopPhoto_2.jpg";
 import mobilePhotoTwo from "../images/mobilePhoto2.jpg";
@@ -23,6 +23,7 @@ export default function Index() {
   const t = useTranslations("Home");
   const isMobile = useIsMobile();
 
+  console.log("isMobile", isMobile);
   return (
     <>
       <Head key={"index_head"}>
@@ -44,10 +45,13 @@ export default function Index() {
             <p className=' mt-1 text-center header-paragraph'>
               {t("description")}
             </p>
-            <BoxImage
-              src={isMobile ? mainMobilePhoto : mainPhoto}
-              alt={t("photo1Alt")}
-            />
+            <div className='flex justify-center w-full'>
+              <BoxImage
+                src={isMobile ? mainMobilePhoto : desktopPhotoOne}
+                alt={t("photo1Alt")}
+                borderRadius='0.6rem'
+              />
+            </div>
           </section>
           <section className='flex flex-col items-center section-spacer lg:flex-row lg:items-start'>
             <div className='lg:grow lg:basis-[45%]'>
@@ -55,6 +59,7 @@ export default function Index() {
                 src={isMobile ? mobilePhotoTwo : desktopPhotoTwo}
                 alt={t("photo2Alt")}
                 width={661}
+                borderRadius='0.6rem'
               />
             </div>
             <div className='lg:grow-0 lg:basis-[45%] lg:mt-[0] mt-[15px] flex flex-col justify-between align-center px-[10px] '>

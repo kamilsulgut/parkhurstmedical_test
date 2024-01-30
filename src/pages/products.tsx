@@ -22,10 +22,10 @@ export default function Products() {
       pageTitle={t("pageTitle")}
     >
       <main className='px-[20px] md:px-[100px]'>
-        <section className='header-section section-spacer'>
+        <section className='header-section'>
           <h1 className='text-center'>{t("pageTitle")}</h1>
         </section>
-        <section className='text-center lg:text-left section-spacer'>
+        <section className='mt-4 text-center lg:text-left'>
           <p className=' mt-1 text-2xl mt-2 text-[var(--text-card)]'>
             {t("firstSection")}
           </p>

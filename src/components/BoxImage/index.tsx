@@ -18,6 +18,7 @@ type BoxImageProps = {
   sizes?: string;
   objectFit?: "contain" | "cover" | "fill" | "none" | "scale-down";
   className?: string;
+  borderRadius?: string;
 };
 
 const BoxImage = ({
@@ -31,6 +32,7 @@ const BoxImage = ({
   sizes,
   objectFit = "fill",
   className,
+  borderRadius,
 }: BoxImageProps) => {
   return (
     <Image
@@ -42,11 +44,14 @@ const BoxImage = ({
       sizes={sizes ? sizes : ""}
       width={width}
       height={height}
-      style={{
-        objectFit: objectFit,
-        borderTopLeftRadius: "0.6rem",
-        borderTopRightRadius: "0.6rem",
-      }}
+      style={
+        borderRadius
+          ? {
+              objectFit: objectFit,
+              borderRadius: borderRadius,
+            }
+          : { borderTopLeftRadius: "0.6rem", borderTopRightRadius: "0.6rem" }
+      }
       className={className ? className : ""}
     />
   );
