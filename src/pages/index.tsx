@@ -23,7 +23,6 @@ export default function Index() {
   const t = useTranslations("Home");
   const isMobile = useIsMobile();
 
-  console.log("isMobile", isMobile);
   return (
     <>
       <Head key={"index_head"}>

@@ -1,6 +1,6 @@
 import Head from "next/head";
-import { useTranslations } from "next-intl";
 import { ReactNode } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 import Header from "../Header";
 import Footer from "../Footer";
@@ -50,6 +50,7 @@ export default function PageLayout({
       </Head>
       <Header />
       {children}
+      <Analytics />
       <Footer />
     </>
   );
