@@ -24,7 +24,7 @@ export default function About() {
       metaDescription={t("metaDescription")}
       pageTitle={t("pageTitle")}
     >
-      <main className='px-[20px] md:px-[100px] md:mx:auto'>
+      <main className='px-[20px] max-w-[1400px]'>
         <section className='header-section'>
           <h1 className='text-center'>{t("pageTitle")}</h1>
         </section>

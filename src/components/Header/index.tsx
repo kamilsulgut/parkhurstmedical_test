@@ -5,6 +5,7 @@ import Logo from "@/icons/Logo";
 import { useRouter } from "next/router";
 import Hambuger from "@/icons/Hambuger";
 import { CloseIcon } from "@/icons/CloseIcon";
+import LanguageSwitcher from "./languageSwitcher";
 
 const Header = () => {
   const t = useTranslations("Header");
@@ -16,7 +17,7 @@ const Header = () => {
   };
 
   return (
-    <header className='sticky top-0 block z-10 px-[10px] md:px-[40px]'>
+    <header className='sticky top-0 block z-10 px-[10px] max-w-[1400px]'>
       <nav className='flex items-center justify-between uppercase'>
         <Link
           className='hidden md:flex justify-start w-full text-xl'
@@ -24,22 +25,6 @@ const Header = () => {
           href={`/${locale === "pl" ? "" : "en"}`}
         >
           <Logo />
-        </Link>
-
-        <Link
-          className='hidden md:flex  text-xl mx-[10px]'
-          href={`${route}`}
-          locale='en'
-        >
-          EN
-        </Link>
-
-        <Link
-          className='hidden md:flex  text-xl'
-          href={`${route}`}
-          locale='pl'
-        >
-          PL
         </Link>
 
         <div className='hidden md:flex justify-end space-x-5 w-full'>
@@ -67,6 +52,7 @@ const Header = () => {
           >
             {t("contact")}
           </Link>
+          <LanguageSwitcher />
         </div>
         {/*Mobile menu*/}
 

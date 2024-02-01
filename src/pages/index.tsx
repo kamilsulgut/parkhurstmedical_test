@@ -36,7 +36,7 @@ export default function Index() {
         pageTitle={t("pageTitle")}
         metaDescription={t("description")}
       >
-        <main className='px-[20px] md:px-[100px] md:mx:auto'>
+        <main className='px-[20px] max-w-[1400px]'>
           <section className='header-section'>
             <h1 className='text-center'>{t("title")}</h1>
           </section>
