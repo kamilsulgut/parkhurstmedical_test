@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import Hambuger from "@/icons/Hambuger";
 import { CloseIcon } from "@/icons/CloseIcon";
 import LanguageSwitcher from "./languageSwitcher";
+import { headerElements } from "./headerElemetns";
 
 const Header = () => {
   const t = useTranslations("Header");
@@ -16,6 +17,34 @@ const Header = () => {
     setIsOpen((prev) => !prev);
   };
 
+  const createNavBarItems = () => {
+    return headerElements.map((el) => {
+      if (el.href === "/") {
+        return (
+          <Link
+            key={el.id}
+            href={`/${locale === "pl" ? "" : "en"}`}
+            className={`text-xl lg:text-2xl text-center navElement ${
+              el.href === route ? "text-[var(--text-secondary)]" : ""
+            }`}
+          >
+            {t(el.translationCode)}
+          </Link>
+        );
+      }
+      return (
+        <Link
+          key={el.id}
+          href={`${locale === "pl" ? "" : "/en"}${el.href}`}
+          className={`text-xl lg:text-2xl text-center navElement ${
+            el.href === route ? "text-[var(--text-secondary)]" : ""
+          }`}
+        >
+          {t(el.translationCode)}
+        </Link>
+      );
+    });
+  };
   return (
     <header
       className='sticky top-0 block z-10 px-[10px] max-w-[1400px]'
@@ -31,30 +60,7 @@ const Header = () => {
         </Link>
 
         <div className='hidden md:flex justify-end space-x-5 w-full'>
-          <Link
-            href={`/${locale === "pl" ? "" : "en"}`}
-            className='text-xl lg:text-2xl text-center navElement'
-          >
-            {t("home")}
-          </Link>
-          <Link
-            href={`/${locale === "pl" ? "" : "en/"}about`}
-            className='text-xl lg:text-2xl text-center navElement'
-          >
-            {t("about")}
-          </Link>
-          <Link
-            href={`/${locale === "pl" ? "" : "en/"}products`}
-            className='text-xl lg:text-2xl text-center navElement'
-          >
-            {t("products")}
-          </Link>
-          <Link
-            href={`/${locale === "pl" ? "" : "en/"}contact`}
-            className='text-xl lg:text-2xl text-center navElement'
-          >
-            {t("contact")}
-          </Link>
+          {createNavBarItems()}
           <LanguageSwitcher />
         </div>
         {/*Mobile menu*/}
@@ -81,34 +87,7 @@ const Header = () => {
             }
           >
             <div className='flex flex-col justify-start items-center mt-[50px]'>
-              <Link
-                onClick={toggleIsOpen}
-                href={`/${locale === "pl" ? "" : "en"}`}
-                className='text-2xl text-left navElement'
-              >
-                {t("home")}
-              </Link>
-              <Link
-                onClick={toggleIsOpen}
-                href={`/${locale === "pl" ? "" : "en/"}about`}
-                className='text-2xl text-left navElement'
-              >
-                {t("about")}
-              </Link>
-              <Link
-                onClick={toggleIsOpen}
-                href={`/${locale === "pl" ? "" : "en/"}products`}
-                className='text-2xl text-left navElement'
-              >
-                {t("products")}
-              </Link>
-              <Link
-                onClick={toggleIsOpen}
-                href={`/${locale === "pl" ? "" : "en/"}contact`}
-                className='text-2xl text-left navElement'
-              >
-                {t("contact")}
-              </Link>
+              {createNavBarItems()}
               <LanguageSwitcher />
             </div>
           </div>
