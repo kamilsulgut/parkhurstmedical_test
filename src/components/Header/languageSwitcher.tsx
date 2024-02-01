@@ -5,9 +5,9 @@ const LanguageSwitcher = () => {
   const { route, locale } = useRouter();
 
   return (
-    <>
+    <div className='flex'>
       <Link
-        className={`hidden md:flex text-2xl m-[0] ${
+        className={`flex text-xl lg:text-2xl m-[0] ${
           locale === "pl" ? "text-[var(--text-secondary)]" : ""
         }`}
         href={`${route}`}
@@ -15,9 +15,9 @@ const LanguageSwitcher = () => {
       >
         PL
       </Link>
-      <p className='hidden md:flex text-3xl m-[0] relative left-[-15px]'>/</p>
+      <p className='flex text-2xl lg:text-3xl mx-[5px] '>/</p>
       <Link
-        className={`hidden md:flex text-2xl m-[0]  relative left-[-30px] ${
+        className={`flex text-xl lg:text-2xl m-[0]   ${
           locale === "en" ? "text-[var(--text-secondary)]" : ""
         }`}
         href={`${route}`}
@@ -25,7 +25,7 @@ const LanguageSwitcher = () => {
       >
         EN
       </Link>
-    </>
+    </div>
   );
 };
 

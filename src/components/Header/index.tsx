@@ -17,7 +17,10 @@ const Header = () => {
   };
 
   return (
-    <header className='sticky top-0 block z-10 px-[10px] max-w-[1400px]'>
+    <header
+      className='sticky top-0 block z-10 px-[10px] max-w-[1400px]'
+      style={{ margin: "0 auto" }}
+    >
       <nav className='flex items-center justify-between uppercase'>
         <Link
           className='hidden md:flex justify-start w-full text-xl'
@@ -30,25 +33,25 @@ const Header = () => {
         <div className='hidden md:flex justify-end space-x-5 w-full'>
           <Link
             href={`/${locale === "pl" ? "" : "en"}`}
-            className='text-2xl text-center navElement'
+            className='text-xl lg:text-2xl text-center navElement'
           >
             {t("home")}
           </Link>
           <Link
             href={`/${locale === "pl" ? "" : "en/"}about`}
-            className='text-2xl text-center navElement'
+            className='text-xl lg:text-2xl text-center navElement'
           >
             {t("about")}
           </Link>
           <Link
             href={`/${locale === "pl" ? "" : "en/"}products`}
-            className='text-2xl text-center navElement'
+            className='text-xl lg:text-2xl text-center navElement'
           >
             {t("products")}
           </Link>
           <Link
             href={`/${locale === "pl" ? "" : "en/"}contact`}
-            className='text-2xl text-center navElement'
+            className='text-xl lg:text-2xl text-center navElement'
           >
             {t("contact")}
           </Link>
@@ -106,23 +109,7 @@ const Header = () => {
               >
                 {t("contact")}
               </Link>
-              <Link
-                onClick={toggleIsOpen}
-                className='flex md:hidden  text-xl mx-[10px] navElement'
-                href={`${route}`}
-                locale='en'
-              >
-                EN
-              </Link>
-
-              <Link
-                onClick={toggleIsOpen}
-                className='flex md:hidden  text-xl mx-[10px] navElement'
-                href={`${route}`}
-                locale='pl'
-              >
-                PL
-              </Link>
+              <LanguageSwitcher />
             </div>
           </div>
         </div>
