@@ -13,21 +13,21 @@ export type TSwiperImagesData = {
 
 export const productsPhotosToSwiper: TSwiperImagesData = [
   {
-    src: productPhoto1,
-  },
-  {
-    src: productPhoto2,
-  },
-  {
-    src: productPhoto3,
-  },
-  {
-    src: productPhoto4,
+    src: productPhoto6,
   },
   {
     src: productPhoto5,
   },
   {
-    src: productPhoto6,
+    src: productPhoto4,
+  },
+  {
+    src: productPhoto3,
+  },
+  {
+    src: productPhoto2,
+  },
+  {
+    src: productPhoto1,
   },
 ];
