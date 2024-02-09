@@ -65,7 +65,10 @@ export default function Products() {
         </section>
 
         <section className='section-spacer flex '>
-          <CustomSwiper images={productsPhotosToSwiper} />
+          <CustomSwiper
+            images={productsPhotosToSwiper}
+            alt={t("productsCarouselAlt")}
+          />
         </section>
       </main>
     </PageLayout>

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { memo, useState } from "react";
+import React, { memo } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { A11y, Autoplay, Navigation, Pagination } from "swiper/modules";
@@ -11,17 +11,14 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import Image from "next/image";
-import {
-  TSwiperImagesData,
-  desktopImagesToSwiper,
-  productsPhotosToSwiper,
-} from "@/images/imagesToSwipper";
+import { TSwiperImagesData } from "@/images/imagesToSwipper";
 
 interface ICustomSwiper {
   images: TSwiperImagesData;
+  alt: string;
 }
 
-const CustomSwiper = ({ images }: ICustomSwiper) => {
+const CustomSwiper = ({ images, alt }: ICustomSwiper) => {
   return (
     <Swiper
       modules={[A11y, Navigation, Autoplay, Pagination]}
@@ -46,11 +43,11 @@ const CustomSwiper = ({ images }: ICustomSwiper) => {
               alignItems: "center",
               justifyContent: "center",
             }}
-            key={el.alt + idx}
+            key={idx}
           >
             <Image
               src={el.src}
-              alt={el.alt}
+              alt={alt}
               width={650}
               height={400}
             />
