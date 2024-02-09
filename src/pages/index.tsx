@@ -57,12 +57,12 @@ export default function Index() {
               <BoxImage
                 src={isMobile ? mobilePhotoTwo : desktopPhotoTwo}
                 alt={t("photo2Alt")}
-                width={661}
+                width={660}
                 borderRadius='0.6rem'
               />
             </div>
             <div className='lg:grow-0 lg:basis-[45%] lg:mt-[0] mt-[15px] flex flex-col justify-between align-center px-[10px] '>
-              <h2 className='text-left section-header mb-1'>{t("for")}</h2>
+              <h2 className='text-left section-header mb-[15px]'>{t("for")}</h2>
               <p className='text-2xl my-1 text-left'>{t("more_1")}</p>
               <p className='text-2xl mt-1 text-left'>{t("more_2")}</p>
             </div>

@@ -180,6 +180,12 @@ export default function ContactForm({
           <input
             {...register("acceptTerms", { required: acceptTermsRequired })}
             type='checkbox'
+            className='  relative peer shrink-0
+            appearance-none w-4 h-4 border-2 border-[var(--text-primary)] rounded-sm bg-white
+            mt-1
+            checked:bg-[var(--text-secondary)] checked:border-0
+            focus:outline-none focus:ring-offset-0 focus:ring-2 focus:ring-[var(--text-primary)]
+            disabled:border-steel-400 disabled:bg-[var(--background-card)]'
           />
           <span className='ml-2'>{checkbox}</span>
           {errors.acceptTerms && (

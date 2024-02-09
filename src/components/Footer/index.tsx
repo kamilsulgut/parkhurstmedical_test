@@ -37,19 +37,19 @@ const Footer = () => {
                 <p className='font-bold'>{t("telephone")}</p>
                 <p>
                   Ernest:
-                  <a href='tel:+48731973183'>+48 731 973 183</a>
+                  <a href='tel:+48731973183'> +48 731 973 183</a>
                 </p>
                 <p>
                   Marcin:
-                  <a href='tel:+48793932693'>+48 793 932 693</a>
+                  <a href='tel:+48793932693'> +48 793 932 693</a>
                 </p>
                 <p>
                   Seth:
-                  <a href='tel:+27769118919'>+27 76 911 89 19</a>
+                  <a href='tel:+27769118919'> +27 76 911 89 19</a>
                 </p>
                 <p>
                   Marco:
-                  <a href='tel:+48793932693'>+27 82 953 4753</a>
+                  <a href='tel:+48793932693'> +27 82 953 4753</a>
                 </p>
               </div>
               <div className='flex flex-col md:basis-1/3 m-[10px] md:m-[0]'>

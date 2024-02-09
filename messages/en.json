@@ -1,6 +1,6 @@
 {
   "About": {
-    "title": "Parkhurst Medical Poland",
+    "title": "Parkhurst Medical",
     "pageTitle": "About Us",
     "metaDescription": "Get to know us and our vision",
     "firstSection": "We offer comprehensive services that enable safe navigation in the hemp industry. At Parkhurst Medical, we understand the importance of high standards and confidence in the quality of offered products. Our business is built on solid foundations, allowing us to deliver products and services that meet the highest European standards.",
@@ -23,9 +23,9 @@
     "products": "Products"
   },
   "Footer": {
-    "companyName": "Parkhurst Medical Ltd.",
-    "companyStreet": "Market St. 8/4",
-    "companyCity": "58-160 Swiebodzice",
+    "companyName": "Parkhurst Medical sp. z o. o.",
+    "companyStreet": "ul. Rynek 8/4",
+    "companyCity": "58-160 Świebodzice",
     "contact": "Contact",
     "telephone": "Phone",
     "address": "Address"
@@ -37,7 +37,7 @@
     "pageNotFound": "Sorry, the page at the given address does not exist"
   },
   "Home": {
-    "title": "Parkhurst Medical Poland",
+    "title": "Parkhurst Medical",
     "pageTitle": "Home Page",
     "description": "Shaping the future of cannabinoid therapy in Poland together",
     "for": "For a better quality of life",
@@ -54,7 +54,7 @@
     "photo4Alt": "evidence-based therapies medical research marijuana safety"
   },
   "Products": {
-    "title": "Parkhurst Medical Poland",
+    "title": "Parkhurst Medical",
     "pageTitle": "Products",
     "description": "Shaping the future of cannabinoid therapy in Poland together",
     "firstSection": "Our medical products meet the highest safety standards. Strict quality control and compliance with medical regulations guarantee that every product leaving our facilities is safe for patient use. We adhere to the latest regulations and industry guidelines, confirming our dedicated commitment to compliance with standards.",
@@ -66,7 +66,7 @@
     "cooperationPharmacyBody": "Our products are available to pharmacies and pharmacy points that value quality, safety, and effectiveness. We offer a wide range of medical products that can meet diverse patient needs."
   },
   "Contact": {
-    "title": "Parkhurst Medical Poland",
+    "title": "Parkhurst Medical",
     "pageTitle": "Contact",
     "description": "Shaping the future of cannabinoid therapy in Poland together",
 

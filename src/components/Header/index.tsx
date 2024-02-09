@@ -24,7 +24,7 @@ const Header = () => {
           <Link
             key={el.id}
             href={`/${locale === "pl" ? "" : "en"}`}
-            className={`text-xl lg:text-2xl text-center navElement ${
+            className={`text-3xl lg:text-2xl text-center navElement py-[20px] ${
               el.href === route ? "text-[var(--text-secondary)]" : ""
             }`}
           >
@@ -36,7 +36,7 @@ const Header = () => {
         <Link
           key={el.id}
           href={`${locale === "pl" ? "" : "/en"}${el.href}`}
-          className={`text-xl lg:text-2xl text-center navElement ${
+          className={`text-3xl lg:text-2xl text-center navElement py-[20px] ${
             el.href === route ? "text-[var(--text-secondary)]" : ""
           }`}
         >
@@ -63,8 +63,8 @@ const Header = () => {
           {createNavBarItems()}
           <LanguageSwitcher />
         </div>
-        {/*Mobile menu*/}
 
+        {/*Mobile menu*/}
         <div className='mobileNav min-h-[60px] bg-[var(--background)]'>
           {/*Hamburger button*/}
 
