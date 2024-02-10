@@ -26,13 +26,13 @@ export default function Products() {
           <h1 className='text-center'>{t("pageTitle")}</h1>
         </section>
         <section className='mt-4 text-center lg:text-left'>
-          <p className=' mt-1 text-2xl mt-2 text-[var(--text-card)]'>
+          <p className=' mt-1 text-xl mt-2 text-[var(--text-card)]'>
             {t("firstSection")}
           </p>
-          <p className=' mt-1 text-2xl mt-2 text-[var(--text-card)]'>
+          <p className=' mt-1 text-xl mt-2 text-[var(--text-card)]'>
             {t("secondSection")}
           </p>
-          <p className=' mt-1 text-2xl mt-2 text-[var(--text-card)]'>
+          <p className=' mt-1 text-xl mt-2 text-[var(--text-card)]'>
             {t("thirdSection")}
           </p>
         </section>
@@ -41,7 +41,7 @@ export default function Products() {
             <h2 className='lg:text-left section-header mb-1'>
               {t("cooperationPharmaceuticalHeader")}
             </h2>
-            <p className=' mt-1 text-2xl mt-2 text-[var(--text-card)]'>
+            <p className=' mt-1 text-xl mt-2 text-[var(--text-card)]'>
               {t("cooperationPharmaceuticalBody")}
             </p>
           </div>
@@ -58,7 +58,7 @@ export default function Products() {
             <h2 className='lg:text-left section-header mb-1'>
               {t("cooperationPharmacyHeader")}
             </h2>
-            <p className=' mt-1 text-2xl mt-2 text-[var(--text-card)]'>
+            <p className=' mt-1 text-xl mt-2 text-[var(--text-card)]'>
               {t("cooperationPharmacyBody")}
             </p>
           </div>

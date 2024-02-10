@@ -25,10 +25,10 @@ export default function About() {
           <h1 className='text-center'>{t("pageTitle")}</h1>
         </section>
         <section className='my-4 text-[var(--text-card)]'>
-          <p className=' mt-1 text-2xl mt-2'>{t("firstSection")}</p>
-          <p className=' mt-1 text-2xl mt-2'>{t("secondSection")}</p>
-          <p className=' mt-1 text-2xl mt-2'>{t("thirdSection")}</p>
-          <p className=' mt-1 text-2xl mt-2'>{t("fourthSection")}</p>
+          <p className=' mt-1 text-xl mt-2'>{t("firstSection")}</p>
+          <p className=' mt-1 text-xl mt-2'>{t("secondSection")}</p>
+          <p className=' mt-1 text-xl mt-2'>{t("thirdSection")}</p>
+          <p className=' mt-1 text-xl mt-2'>{t("fourthSection")}</p>
         </section>
         <section className='flex flex-col lg:flex-row mb-4  section-spacer w-full'>
           <IconCard icon={<Ferry />}>{t("ferry")}</IconCard>

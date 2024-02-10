@@ -14,7 +14,7 @@ export const IconCard = ({ icon, children, className }: IIconCard) => {
       }`}
     >
       {icon}
-      <p className=' mt-1 text-2xl mt-2 text-[var(--text-card)] px-1 '>
+      <p className=' mt-1 text-xl mt-2 text-[var(--text-card)] px-1 '>
         {children}
       </p>
     </div>

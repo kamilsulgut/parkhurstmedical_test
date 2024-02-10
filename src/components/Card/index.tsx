@@ -27,12 +27,10 @@ export const Card = ({
         alt={alt}
       />
       <div className='m-5 '>
-        <h2 className='text-3xl text-[var(--text-card)] font-medium leading-relaxed'>
+        <h2 className='text-2xl text-[var(--text-card)] font-medium leading-relaxed'>
           {cardTitle}
         </h2>
-        <p className='text-xl mt-2 text-[var(--text-card)]'>
-          {cardDescription}
-        </p>
+        <p className='text-l mt-2 text-[var(--text-card)]'>{cardDescription}</p>
       </div>
     </div>
   );
