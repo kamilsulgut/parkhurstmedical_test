@@ -24,7 +24,7 @@ const Header = () => {
           <Link
             key={el.id}
             href={`/${locale === "pl" ? "" : "en"}`}
-            className={`text-3xl lg:text-xl text-center navElement py-[20px] ${
+            className={`text-3xl lg:text-xl text-center navElement my-[20px] ${
               el.href === route ? "text-[var(--text-secondary)]" : ""
             }`}
           >
@@ -36,7 +36,7 @@ const Header = () => {
         <Link
           key={el.id}
           href={`${locale === "pl" ? "" : "/en"}${el.href}`}
-          className={`text-3xl lg:text-xl text-center navElement py-[20px] ${
+          className={`text-3xl lg:text-xl text-center navElement my-[20px] ${
             el.href === route ? "text-[var(--text-secondary)]" : ""
           }`}
         >
