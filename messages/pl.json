@@ -96,5 +96,10 @@
     "buttonText": "Prześlij",
 
     "successMessage": "Dziękujemy za kontakt. Odezwiemy się wkrótce"
+  },
+  "Terms": {
+    "title": "Parkhurst Medical",
+    "pageTitle": "Warunki korzystania z serwisu",
+    "description": "Wspólne kształtowanie przyszłości terapii kannabinoidowej w Polsce"
   }
 }
