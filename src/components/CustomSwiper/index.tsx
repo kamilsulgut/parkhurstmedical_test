@@ -48,8 +48,10 @@ const CustomSwiper = ({ images, alt }: ICustomSwiper) => {
             <Image
               src={el.src}
               alt={alt}
-              width={650}
               height={400}
+              quality={70}
+              object-fit='cover'
+              placeholder='blur'
             />
           </SwiperSlide>
         );

@@ -3,14 +3,14 @@
     "title": "Parkhurst Medical",
     "pageTitle": "O nas",
     "metaDescription": "Poznaj nas i naszą wizję",
-    "firstSection": "Oferujemy kompleksowe usługi, które umożliwiają bezpieczne poruszanie się po branży konopi indyjskich. W Parkhurst Medical zdajemy sobie sprawę z istoty wysokich standardów i pewności co do jakości oferowanych produktów. Nasza działalność opiera się na solidnych podstawach, co umożliwia nam dostarczanie produktów i usług, które spełniają najwyższe europejskie standardy.",
-    "secondSection": "Nasze usługi umożliwiają bezpieczne poruszanie się po branży konopi indyjskich. Dzięki naszemu doświadczeniu i ekspertyzie, wspieramy naszych klientów w każdym etapie ich działalności. Oferujemy nie tylko produkty, ale również kompleksową gamę usług, obejmującą doradztwo, szkolenia oraz wsparcie logistyczne. Nasi klienci mają pewność, że są w pełni przygotowani do dynamicznych wyzwań związanych z branżą konopi indyjskich.",
-    "thirdSection": "Gwarantujemy jakość towaru, pochodzącego od licencjonowanych dostawców, spełniających europejskie standardy. Nasze zobowiązanie do jakości jest niepodważalne. Współpracujemy wyłącznie z licencjonowanymi dostawcami, którzy są zobowiązani do przestrzegania najwyższych norm europejskich. Dzięki temu nasi klienci otrzymują produkty, które są nie tylko legalne, ale także spełniają surowe kryteria bezpieczeństwa, czystości i skuteczności.",
-    "fourthSection": "Jesteśmy dumni z naszego wkładu w rozwój branży konopi indyjskich. Nasza firma nie tylko dostarcza produkty i usługi, ale również aktywnie przyczynia się do tworzenia etycznych standardów w branży. W Parkhurst Medical kładziemy nacisk na transparentność, edukację i zrównoważony rozwój, co sprawia, że nasi klienci mogą być pewni, że współpracują z partnerem, który dba o ich interesy i przyczynia się do rozwoju całej branży.",
+    "firstSection": "Oferujemy kompleksowe usługi związane z zamawianiem, dystrybucją oraz sprzedażą medycznej marihuany.",
+    "secondSection": "Dzięki wieloletniemu doświadczeniu możemy zagwarantować naszym klientom produkt wysokiej jakości, spełniający najwyższe światowe standardy.",
+    "thirdSection": "Posiadamy własne farmy w Republice Południowej Afryki, dzięki czemu mamy wgląd i wpływ na proces produkcji na każdym jej etapie. Nasze produkty są nie tylko legalne, ale także spełniają surowe kryteria bezpieczeństwa, czystości i skuteczności w leczeniu.",
+    "fourthSection": "Działając według powyższych standardów przyczyniamy się do tworzenia etycznych standardów w branży medycznej marihuany w Polsce.",
 
-    "ferry": "Nasza firma organizuje logistykę za pośrednictwem dostawców, którzy posiadają odpowiednie licencje i zostały zatwierdzone przez odpowiednie instytucje. Dzięki temu nasi klienci mogą być pewni, że ich produkty są transportowane zgodnie z najwyższymi standardami bezpieczeństwa i zgodnie z obowiązującymi przepisami.",
-    "security": "Nasza kontrola i audyt zamówionego towaru obejmuje szczegółową weryfikację zgodności z normami EUGMP (European Union Good Manufacturing Practice) oraz wszystkimi obowiązującymi przepisami prawa. Działamy zgodnie z najnowszymi wytycznymi i normami branżowymi, aby zapewnić naszym klientom pewność, że otrzymują produkty spełniające najwyższe standardy jakości.",
-    "transport": "Nasze podejście do zarządzania transportem ma na celu zapewnienie klientom pełnej pewności co do ścieżki dostawy ich produktów, jednocześnie eliminując zbędne pośrednictwo. W ten sposób dostarczamy medyczną marihuanę bezpośrednio od producenta do firmy klienta, umożliwiając szybkie i bezpieczne otrzymywanie produktów medycznych."
+    "ferry": "Nasza firma organizuje logistykę za pośrednictwem dostawców posiadających licencję spełniające warubki transportu medycznego. Dzięki temu nasi klienci mogą być pewni, że zamówiony produkt jest transportowany zgodnie z najwyższymi standardami bezpieczeństwa, zgodnie z obowiązującymi przepisami prawa.",
+    "security": "Kontrola i wpływ na produkt na każdym etapie produkcji odbywa się zgodnie z normami EUGMP ( European Union Good Manufacturing Practice) oraz wszystkimi obowiązującymi przepisami prawa. Klienci mają pewność, że otrzymują produkt spełniający najwyższe standardy jakości.",
+    "transport": "Zapewniamy transport towaru bezpośrednio od producenta do firmy klienta. Eliminując zbędne pośrednictwo podczas transportu dajemy gwarancję, że towar zostanie dostarczony a jego jakość w procesie dostawy nie ulegnie zmianie."
   },
   "Index": {
     "title": "Start",
@@ -30,7 +30,8 @@
     "companyCity": "58-160 Świebodzice",
     "contact": "Kontakt",
     "telephone": "Telefon",
-    "address": "Adres"
+    "address": "Adres",
+    "country": "Polska"
   },
   "NotFound": {
     "title": "Przepraszamy, ta strona nie istnieje",
@@ -44,13 +45,13 @@
     "pageTitle": "Strna główna",
     "description": "Wspólne kształtowanie przyszłości terapii kannabinoidowej w Polsce",
     "for": "Dla lepszej jakości życia",
-    "more_1": "każdy ma prawo do wysokiej jakości życia w każdym wieku,  Nasze przekonanie opiera się na przekonaniu, że zdrowie i dobre samopoczucie są nieodłącznymi elementami pełnego życia. Jako Parkhurst Medical, nie tylko respektujemy to prawo, ale również je wspieramy.",
-    "more_2": "Jako część Parkhurst Medical umożliwiamy pacjentom pełne wykorzystanie medycznego potencjału Kannabinoidów. Nasza grupa medyczna dedykuje się edukacji pacjentów i zapewnianiu im kompleksowej opieki, umożliwiając jednocześnie korzystanie z medycznego potencjału kannabinoidów. Wierzymy w holistyczne podejście do zdrowia, które uwzględnia naturalne metody leczenia i przywracania równowagi organizmu.",
+    "more_1": "Każdy ma prawo do wysokiej jakości życia, wierzymy, że zdrowie i dobre samopoczucie są nieodłącznymi elementami pełnego życia. Misją naszej firmy jest umożliwienie pacjentom wykorzystania w pełni potencjału medycznej marihuany.",
+    "more_2": "Wierzymy w holistyczne podejście do zdrowia, które uwzględnia naturalne metody leczenia i przywracania równowagi organizmu.",
     "ourValues": "Nasze wartości",
     "liveQuality": "Jakość życia i łagodzenie objawów",
     "basedTherapies": "Terapie oparte na badaniach",
-    "ourProducts": "Nasze innowacyjne produkty i usługi mają na celu wsparcie terapii i ułatwienie dostępu do medycznej marihuany, zwłaszcza w sytuacji, gdy standardowa terapia nie przynosi oczekiwanych efektów lub generuje niepożądane skutki uboczne. W Parkhurst Medical rozumiemy, że każdy pacjent jest jednostką o unikalnych potrzebach, dlatego oferujemy innowacyjne rozwiązania, które są dostosowane do indywidualnych przypadków.",
-    "ourConcentration": "Koncentrujemy się na terapii leczenia medyczną marihuaną opartą na badaniach medycznych. Nasze podejście do terapii opiera się na solidnych fundamentach naukowych i medycznych badań, co umożliwia nam oferowanie pacjentom skutecznych i bezpiecznych rozwiązań. W Parkhurst Medical kładziemy duży nacisk na badania medyczne, aby zapewnić naszym pacjentom dostęp do terapii opartej na solidnych dowodach naukowych.",
+    "ourProducts": "Nasze innowacyjne produkty i usługi mają na celu wsparcie terapii i ułatwienie dostępu do medycznej marihuany, zwłaszcza w sytuacji gdy standardowa terapia nie przynosi oczekiwanych efektów  lub generuje niepożądane skutki. Rozumiemy, że każdy pacjent ma unikalne potrzeby, dlatego oferujemy rozwiązania dostosowane do indywidualnych przypadków.",
+    "ourConcentration": "W Parkhurst Medical kładziemy duży nacisk na badania medyczne, aby zapewnić naszym pacjentom dostęp do terapii opartej na solidnych dowodach naukowych. Nasze produkty spełniają najwyższe standardy jakości.",
     "photo1Alt": "medykamenty wsparcie terapia lepsza jakość życia medyczna marihuana Parkhurst",
     "photo2Alt": "medykamenty wsparcie terapia lepsza jakość życia",
     "photo3Alt": "jakość życia łagodzenie objawów innowacja medyczna marihuana",
@@ -62,9 +63,9 @@
     "pageTitle": "Produkty",
     "description": "Wspólne kształtowanie przyszłości terapii kannabinoidowej w Polsce",
 
-    "firstSection": "Nasze produkty medyczne spełniają najwyższe standardy bezpieczeństwa. Ścisła kontrola jakości oraz zgodność z regulacjami medycznymi gwarantują, że każdy produkt, który opuszcza nasze zakłady, jest bezpieczny dla użytku pacjentów. Przestrzegamy najnowszych przepisów i wytycznych branżowych, co potwierdza naszą zaangażowaną dbałość o zgodność z normami.",
-    "secondSection": "Produkty są wynikiem naukowych badań i ewaluacji klinicznych. W Parkhurst Medical współpracujemy z zespołem specjalistów i ekspertów, aby zapewnić skuteczność i efektywność naszych produktów medycznych. Badania kliniczne są kluczowym elementem naszego podejścia, co umożliwia nam dostarczanie pacjentom produktów, które są nie tylko bezpieczne, ale także skuteczne w leczeniu różnych schorzeń.",
-    "thirdSection": "Specjaliści do spraw kontroli jakości monitorują każdy etap produkcji, począwszy od surowców aż do finalnego produktu. Systematyczne testy i analizy laboratoryjne sprawdzają czystość, skład chemiczny i skuteczność naszych produktów. To zaawansowane procesy sprawdzania jakości zapewniają, że dostarczamy produkty z najwyższą precyzją i zgodne z naszymi standartami.",
+    "firstSection": "Nasze produkty spełniają najwyższe standardy jakości, ścisła kontrola oraz zgodność z regulacjami medycznymi gwarantują, że każdy produkt, który opuszcza nasze zakłady, jest bezpieczny dla pacjentów. Przestrzegamy najnowszych przepisów i wytycznych branżowych, a nasze produkty są wynikiem naukowych badań i ewaluacji klinicznych.",
+    "secondSection": "Współpracujemy z zespołem specjalistów i ekspertów, aby zapewnić skuteczność i efektywność leczenia. Badania kliniczne są kluczowym elementem naszego podejścia, co umożliwia nam dostarczanie pacjentom produktów, które są nie tylko bezpieczne, ale także skuteczne w leczeniu różnych schorzeń.",
+    "thirdSection": "Systematyczne testy i analizy laboratoryjne sprawdzają czystość, skład chemiczny i skuteczność naszych produktów. Zaawansowane procesy sprawdzania jakości zapewniają, że dostarczamy produkty z najwyższą precyzją i zgodne z przyjętymi standardami.",
 
     "cooperationPharmaceuticalHeader": "Współpraca z hurtowniami farmaceutycznymi",
     "cooperationPharmaceuticalBody": "Zapewniamy hurtowniom farmaceutycznym dostęp do naszej gamy produktów medycznych, które spełniają najwyższe standardy jakości. Oferujemy atrakcyjne warunki współpracy oraz wsparcie w dostarczaniu produktów bezpośrednio do klientów hurtowych.",
@@ -96,5 +97,34 @@
     "buttonText": "Prześlij",
 
     "successMessage": "Dziękujemy za kontakt. Odezwiemy się wkrótce"
+  },
+  "Terms": {
+    "title": "Parkhurst Medical",
+    "pageTitle": "Warunki korzystania z serwisu",
+    "description": "Wspólne kształtowanie przyszłości terapii kannabinoidowej w Polsce",
+
+    "firstSection": "Szanowny Użytkowniku, w związku ze zmianą przepisów o ochronie danych osobowych i stosowaniem Rozporządzenia Parlamentu Europejskiego i Rady (UE) w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) ”RODO” informujemy, że:",
+    "secondSection": "Administratorem danych osobowych Użytkowników serwisu i sklepu (dalej łącznie zwane również Serwis lub Sklep) Parkhurst Medical Poland jest Parkhurst Medical Sp. z o. o z siedzibą w Świebodzicach, ul. Rynek 8/4, 58-160 Świebodzice, spółka wpisana do Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy dla Wrocławia-Fabrycznej we Wrocławiu IX Wydział Gospodarczy Krajowego Rejestru Sądowego, pod numerem KRS: 0001074394, (dalej: ”Spółka”).",
+
+    "thirdSection": "Spółka przetwarza dane osobowe w celach:",
+    "purposesFirs": "sprzedaży produktów oferowanych przez Spółkę, w tym prawidłowego przeprowadzenia transakcji oraz uzyskania opinii o produktach lub usługach oferowanych przez Spółkę, na podstawie zgody udzielonej podczas korzystania z formularza kontaktowego,",
+    "purposesSecond": "rozpatrzenia reklamacji, dochodzenia i obrony w razie zaistnienia wzajemnych roszczeń, realizując prawnie uzasadniony interes Administratora danych osobowych, tj. na podstawie art. 6 ust. 1 lit. f RODO,",
+
+    "fourthSection": "Przepisy prawa wymagają od Spółki przetwarzania danych Użytkowników dla celów podatkowych i rachunkowych. Do innych celów dane udostępnione przez Użytkownika mogą być wykorzystywane wyłącznie za jego uprzednią, osobną zgodą.",
+
+    "fifthSection": "Kontakt ze Sprzedawcą poprzez formularz kontaktowy wymaga podania danych osobowych. Podanie danych osobowych jest dobrowolne, lecz niezbędne w celu zawarcia umowy ze Spółką i wykonania zawartej umowy. Brak takiej zgody uniemożliwia skorzystanie z usług Sklepu. Kontakt ze Sprzedawcą wymaga podania następujących danych osobowych:",
+    "email": "adres e-mail,",
+    "fullName": "imię i nazwisko,",
+    "telephone": "numer telefonu kontaktowego.",
+
+    "sixthSection": "Dane osobowe przetwarzane będą przez okres niezbędny dla wykonania umowy, a po tym okresie dla celów i przez czas oraz w zakresie wymaganym przez przepisy prawa lub dla zabezpieczenia ewentualnych roszczeń, lub do czasu cofnięcia udzielonej zgody.",
+
+    "seventhSection": "Odbiorcami danych osobowych będą:",
+    "recipientsFirts": "podmioty świadczące usługi dostawy produktów,",
+    "recipientsSecond": "podmioty współpracujące przy obsłudze Serwisu Parkhurst Medical Poland - na mocystosownych umów powierzenia przetwarzania danych osobowych",
+    "recipientsThird": "podmiot świadczący usługi płatności on-line - na mocy stosownych umów powierzenia przetwarzania danych osobowych.",
+
+    "eighthSection": "Każdej osobie, w zakresie wynikającym z przepisów prawa, przysługuje prawo do dostępu do swoich danych oraz ich sprostowania, usunięcia lub ograniczenia przetwarzania, prawo wniesienia sprzeciwu wobec przetwarzania, prawo do przenoszenia danych, a także prawo cofnięcia udzielonej zgody w dowolnym momencie. Cofnięcie zgody nie ma wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem.",
+    "ninethSection": "W przypadku wątpliwości związanych z przetwarzaniem danych osobowych każda osoba może zwrócić się do Spółki z prośbą o udzielenie informacji. Niezależnie od powyższego każdemu przysługuje prawo wniesienia skargi do organu nadzorczego - Prezesa Urzędu Ochrony Danych Osobowych."
   }
 }
