@@ -2,7 +2,6 @@
 
 import { useForm, SubmitHandler } from "react-hook-form";
 import emailjs from "@emailjs/browser";
-import { useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
