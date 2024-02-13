@@ -4,29 +4,8 @@ import { useForm, SubmitHandler } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 import Link from "next/link";
 import { useRouter } from "next/router";
-
-interface IContactForm {
-  fullName: string;
-  fullNameRequired: string;
-  phone: string;
-  phoneRequired: string;
-  email: string;
-  emailRequired: string;
-  message: string;
-  messageRequired: string;
-  checkbox: string;
-  acceptTermsRequired: string;
-  buttonText: string;
-  successMessage: string;
-}
-
-type FormValues = {
-  fullName: string;
-  email: string;
-  phone: string;
-  message: string;
-  acceptTerms: boolean;
-};
+import { useEffect, useState } from "react";
+import { FormValues, IContactForm } from "./CustomSwipper.types";
 
 export default function ContactForm({
   fullName,
@@ -53,6 +32,7 @@ export default function ContactForm({
   } = useForm<FormValues>();
 
   const { locale } = useRouter();
+  const [isVisible, setIsVisible] = useState(false);
 
   const onSubmit: SubmitHandler<FormValues> = async ({
     fullName,
@@ -81,9 +61,20 @@ export default function ContactForm({
     }
   };
 
+  useEffect(() => {
+    if (isSubmitSuccessful) {
+      setIsVisible(true);
+      const timer = setTimeout(() => {
+        setIsVisible(false);
+      }, 5000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [isSubmitSuccessful]);
+
   return (
     <div className='w-full md:w-[430px] color-[var(--text-primary)] mt-[15px]'>
-      {isSubmitSuccessful && (
+      {isVisible && (
         <div className='text-center  md:w-[430px] py-[15px] my-[15px] bg-[var(--text-secondary)] color-[var(--background-card)] rounded'>
           {successMessage}
         </div>
