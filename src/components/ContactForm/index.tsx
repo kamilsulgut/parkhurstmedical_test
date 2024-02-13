@@ -3,6 +3,8 @@
 import { useForm, SubmitHandler } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 import { useEffect } from "react";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 interface IContactForm {
   fullName: string;
@@ -50,6 +52,8 @@ export default function ContactForm({
     reset,
     formState: { errors, isSubmitSuccessful },
   } = useForm<FormValues>();
+
+  const { locale } = useRouter();
 
   const onSubmit: SubmitHandler<FormValues> = async ({
     fullName,
@@ -176,18 +180,22 @@ export default function ContactForm({
             </span>
           )}
         </div>
-        <div className='mb-4'>
+        <div className='flex items-center mb-4'>
           <input
             {...register("acceptTerms", { required: acceptTermsRequired })}
             type='checkbox'
-            className='  relative peer shrink-0
+            className='  relative peer shrink-0 
             appearance-none w-4 h-4 border-2 border-[var(--text-primary)] rounded-sm bg-white
-            mt-1
             checked:bg-[var(--text-secondary)] checked:border-0
             focus:outline-none focus:ring-offset-0 focus:ring-2 focus:ring-[var(--text-primary)]
             disabled:border-steel-400 disabled:bg-[var(--background-card)]'
           />
-          <span className='ml-2'>{checkbox}</span>
+          <Link
+            href={`${locale === "pl" ? "" : "/en"}/terms`}
+            className={`text-sm font-bold ml-2 flex items-center navElement`}
+          >
+            {checkbox}
+          </Link>
           {errors.acceptTerms && (
             <p className='text-red-500'>
               {errors?.acceptTerms?.message && (
