@@ -43,9 +43,9 @@ export default function ContactForm({
   buttonText,
   successMessage,
 }: IContactForm) {
-  // const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAIL_JS_PUBLIC_KEY;
-  // const SERVICE_ID = process.env.NEXT_PUBLIC_EMAIL_JS_SERVICE_ID;
-  // const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAIL_JS_TEMPLATE_ID;
+  const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAIL_JS_PUBLIC_KEY;
+  const SERVICE_ID = process.env.NEXT_PUBLIC_EMAIL_JS_SERVICE_ID;
+  const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAIL_JS_TEMPLATE_ID;
   const {
     register,
     handleSubmit,
@@ -61,25 +61,25 @@ export default function ContactForm({
     phone,
     message,
   }) => {
-    // if (SERVICE_ID && TEMPLATE_ID) {
-    //   try {
-    //     emailjs.send(
-    //       SERVICE_ID,
-    //       TEMPLATE_ID,
-    //       {
-    //         from_name: fullName,
-    //         message: message,
-    //         from_email: email,
-    //         from_phone: phone,
-    //       },
-    //       PUBLIC_KEY
-    //     );
-    //   } catch (error) {
-    //     console.log("error", error);
-    //   } finally {
-    //     reset();
-    //   }
-    // }
+    if (SERVICE_ID && TEMPLATE_ID) {
+      try {
+        emailjs.send(
+          SERVICE_ID,
+          TEMPLATE_ID,
+          {
+            from_name: fullName,
+            message: message,
+            from_email: email,
+            from_phone: phone,
+          },
+          PUBLIC_KEY
+        );
+      } catch (error) {
+        console.log("error", error);
+      } finally {
+        reset();
+      }
+    }
   };
 
   return (
