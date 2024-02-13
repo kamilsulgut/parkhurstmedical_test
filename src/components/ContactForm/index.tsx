@@ -3,6 +3,8 @@
 import { useForm, SubmitHandler } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 import { useEffect } from "react";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 interface IContactForm {
   fullName: string;
@@ -50,6 +52,8 @@ export default function ContactForm({
     reset,
     formState: { errors, isSubmitSuccessful },
   } = useForm<FormValues>();
+
+  const { locale } = useRouter();
 
   const onSubmit: SubmitHandler<FormValues> = async ({
     fullName,
@@ -187,7 +191,12 @@ export default function ContactForm({
             focus:outline-none focus:ring-offset-0 focus:ring-2 focus:ring-[var(--text-primary)]
             disabled:border-steel-400 disabled:bg-[var(--background-card)]'
           />
-          <span className='ml-2'>{checkbox}</span>
+          <Link
+            href={`${locale === "pl" ? "" : "/en"}/terms`}
+            className={`ml-2 text-3xl lg:text-xl text-center navElement my-[20px]`}
+          >
+            {checkbox}
+          </Link>
           {errors.acceptTerms && (
             <p className='text-red-500'>
               {errors?.acceptTerms?.message && (

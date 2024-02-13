@@ -3,14 +3,14 @@
     "title": "Parkhurst Medical",
     "pageTitle": "About Us",
     "metaDescription": "Get to know us and our vision",
-    "firstSection": "We offer comprehensive services that enable safe navigation in the hemp industry. At Parkhurst Medical, we understand the importance of high standards and confidence in the quality of offered products. Our business is built on solid foundations, allowing us to deliver products and services that meet the highest European standards.",
-    "secondSection": "Our services facilitate safe navigation in the hemp industry. With our experience and expertise, we support our clients at every stage of their business. We not only offer products but also a comprehensive range of services, including consulting, training, and logistical support. Our clients can be confident that they are well-prepared for the dynamic challenges of the hemp industry.",
-    "thirdSection": "We guarantee the quality of goods from licensed suppliers that meet European standards. Our commitment to quality is unquestionable. We only collaborate with licensed suppliers who are committed to adhering to the highest European standards. As a result, our clients receive products that are not only legal but also meet rigorous criteria for safety, purity, and efficacy.",
-    "fourthSection": "We take pride in our contribution to the development of the hemp industry. Our company not only provides products and services but also actively contributes to the creation of ethical standards in the industry. At Parkhurst Medical, we emphasize transparency, education, and sustainable development, ensuring that our clients are partnering with a company that cares about their interests and contributes to the overall industry development.",
+    "firstSection": "We offer comprehensive services related to ordering, distributing and selling medical marijuana.",
+    "secondSection": "Thanks to many years of experience, we can guarantee our customers a high-quality product that meets the highest global standards.",
+    "thirdSection": "We have our own farms in South Africa, so we have insight and influence over the production process at every stage. Our products are not only legal, but also meet strict criteria for safety, purity, and efficacy in treatment.",
+    "fourthSection": "By operating in accordance with the above standards, we contribute to the creation of ethical standards in the medical marijuana industry in Poland.",
 
-    "ferry": "Our company organizes logistics through providers who have the appropriate licenses and have been approved by the relevant institutions. This ensures that our clients can be confident that their products are transported in accordance with the highest safety standards and applicable regulations.",
-    "security": "Our control and audit of ordered goods include a detailed verification of compliance with EUGMP (European Union Good Manufacturing Practice) standards and all applicable legal regulations. We operate in accordance with the latest guidelines and industry standards to provide our clients with the assurance that they receive products that meet the highest quality standards.",
-    "transport": "Our approach to managing transportation aims to provide clients with full confidence in the delivery path of their products while eliminating unnecessary intermediaries. This way, we deliver medical marijuana directly from the producer to the client's company, enabling the quick and safe receipt of medical products."
+    "ferry": "We organize logistics through licensed suppliers that meet the requirements of medical transport. As a result, our customers can be sure that the ordered product is transported in accordance with the highest safety standards, in accordance with applicable laws.",
+    "security": "The control and  production is carried out in accordance with the EU GMP (European Union Good Manufacturing Practice) standards and all applicable laws. Customers can be sure that they are receiving a product that meets the highest quality standards.",
+    "transport": "We provide transport of goods directly from the manufacturer to the customer's company. By eliminating unnecessary intermediation during transport, we guarantee that the goods will be delivered and their quality will not change during the delivery process."
   },
   "Index": {
     "title": "Home",
@@ -28,7 +28,8 @@
     "companyCity": "58-160 Świebodzice",
     "contact": "Contact",
     "telephone": "Phone",
-    "address": "Address"
+    "address": "Address",
+    "country": "Poland"
   },
   "NotFound": {
     "title": "Sorry, this page does not exist",
@@ -41,13 +42,13 @@
     "pageTitle": "Home Page",
     "description": "Shaping the future of cannabinoid therapy in Poland together",
     "for": "For a better quality of life",
-    "more_1": "Everyone has the right to a high quality of life at any age. Our belief is based on the understanding that health and well-being are integral elements of a fulfilling life. As part of the Parkhurst Medical, we not only respect this right but also support it.",
-    "more_2": "As part of the Parkhurst Medical, we enable patients to fully utilize the medical potential of cannabinoids. Our medical group is dedicated to patient education and providing comprehensive care, while allowing the use of the medical potential of cannabinoids. We believe in a holistic approach to health that considers natural methods of treatment and restoring the body's balance.",
+    "more_1": "Everyone has the right to a high quality of life, we believe that health and well-being are integral part  to  fulfilling a healthy balance.",
+    "more_2": "Our company's mission is to enable patients to use the full potential of medical marijuana. We believe in a holistic approach to health that incorporates natural methods of healing and rebalancing the body.",
     "ourValues": "Our Values",
     "liveQuality": "Quality of life and symptom relief",
     "basedTherapies": "Research-based therapies",
-    "ourProducts": "Our innovative products and services aim to support therapy and facilitate access to medical marijuana, especially when standard therapy does not produce the expected effects or generates unwanted side effects. At Parkhurst Medical, we understand that each patient is an individual with unique needs, so we offer innovative solutions tailored to individual cases.",
-    "ourConcentration": "We focus on medical marijuana therapy based on medical research. Our approach to therapy is based on solid scientific foundations and medical research, allowing us to offer patients effective and safe solutions. At Parkhurst Medical, we place a strong emphasis on medical research to provide our patients with access to evidence-based therapy.",
+    "ourProducts": "Our innovative products and services are designed to support therapy and facilitate access to medical cannabis, especially when standard therapy does not bring the expected results or generates undesirable effects. We understand that every patient has unique needs, which is why we offer tailor-made solutions.",
+    "ourConcentration": "At Parkhurst Medical, we place a strong emphasis on medical research to ensure that our patients have access to evidence-based treatments. Our products meet the highest quality standards.",
     "photo1Alt": "medication support therapy better quality of life medical marijuana Parkhurst",
     "photo2Alt": "medication support therapy better quality of life",
     "photo3Alt": "quality of life symptom relief medical innovation marijuana",
@@ -57,9 +58,9 @@
     "title": "Parkhurst Medical",
     "pageTitle": "Products",
     "description": "Shaping the future of cannabinoid therapy in Poland together",
-    "firstSection": "Our medical products meet the highest safety standards. Strict quality control and compliance with medical regulations guarantee that every product leaving our facilities is safe for patient use. We adhere to the latest regulations and industry guidelines, confirming our dedicated commitment to compliance with standards.",
-    "secondSection": "Products are the result of scientific research and clinical evaluations. At Parkhurst Medical, we collaborate with a team of specialists and experts to ensure the effectiveness and efficiency of our medical products. Clinical trials are a key element of our approach, allowing us to deliver products that are not only safe but also effective in treating various conditions.",
-    "thirdSection": "Quality control specialists monitor every stage of production, from raw materials to the final product. Systematic tests and laboratory analyses check the purity, chemical composition, and effectiveness of our products. These advanced quality checking processes ensure that we deliver products with the highest precision and in line with our standards.",
+    "firstSection": "Our products meet the highest quality standards, strict control and compliance with medical regulations ensure that every product that leaves our facilities is safe for patients. We comply with the latest regulations and industry guidelines, and our products are the result of scientific research and clinical evaluations.",
+    "secondSection": "We work with a team of specialists and experts to ensure the effectiveness and efficiency of treatment.Clinical trials are a key part of our approach, enabling us to provide patients with products that are not only safe, but also effective in treating a variety of conditions.",
+    "thirdSection": "Systematic laboratory tests and analyses check the purity, chemical composition and efficacy of our products. Advanced quality checking processes ensure that we deliver products with the highest precision and in accordance with accepted standards.",
     "cooperationPharmaceuticalHeader": "Collaboration with pharmaceutical wholesalers",
     "cooperationPharmaceuticalBody": "We provide pharmaceutical wholesalers access to our range of medical products that meet the highest quality standards. We offer attractive collaboration conditions and support in delivering products directly to wholesale customers.",
     "cooperationPharmacyHeader": "Collaboration with pharmacies and pharmacy points",
@@ -89,5 +90,34 @@
     "buttonText": "Submit",
 
     "successMessage": "Thank you for reaching out. We will get back to you soon."
+  },
+  "Terms": {
+    "title": "Parkhurst Medical",
+    "pageTitle": "Terms of Service",
+    "description": "Jointly shaping the future of cannabinoid therapy in Poland",
+
+    "firstSection": "Dear User, in connection with the change of personal data protection regulations and the application of the Regulation of the European Parliament and of the Council (EU) on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) 'GDPR', we inform you that:",
+    "secondSection": "The personal data administrator of the service and store users (hereinafter also collectively referred to as the Service or Store) Parkhurst Medical Poland is Parkhurst Medical Sp. z o. o., headquartered in Świebodzice, Rynek 8/4, 58-160 Świebodzice, a company entered into the National Court Register maintained by the District Court for Wrocław-Fabryczna in Wrocław, IX Economic Department of the National Court Register, under the KRS number: 0001074394, (hereinafter referred to as 'the Company').",
+
+    "thirdSection": "The Company processes personal data for the purposes of:",
+    "purposesFirs": "sales of products offered by the Company, including proper conduct of transactions and obtaining feedback on products or services offered by the Company, based on the consent given while using the contact form,",
+    "purposesSecond": "consideration of complaints, pursuit and defense in case of mutual claims, realizing the legally justified interest of the personal data Administrator, i.e., on the basis of Art. 6 para 1 point f of the GDPR,",
+
+    "fourthSection": "The law requires the Company to process Users' data for tax and accounting purposes. For other purposes, data provided by the User can be used only with their prior, separate consent.",
+
+    "fifthSection": "Contact with the Seller via the contact form requires provision of personal data. The provision of personal data is voluntary, but necessary to conclude an agreement with the Company and execute the concluded agreement. Lack of such consent prevents the use of the Store's services. Contact with the Seller requires providing the following personal data:",
+    "email": "e-mail address,",
+    "fullName": "full name,",
+    "telephone": "contact phone number.",
+
+    "sixthSection": "Personal data will be processed for the period necessary for the performance of the agreement, and after that period for the purposes and for the time and to the extent required by law or to secure possible claims, or until the withdrawal of consent.",
+
+    "seventhSection": "Recipients of personal data will be:",
+    "recipientsFirts": "entities providing product delivery services,",
+    "recipientsSecond": "entities cooperating in the service of the Parkhurst Medical Poland Service - by virtue of appropriate personal data processing entrustment agreements",
+    "recipientsThird": "entity providing online payment services - by virtue of appropriate personal data processing entrustment agreements.",
+
+    "eighthSection": "Every person has the right to access their data and to rectify, delete or limit processing, oppose processing, transfer data, as well as the right to withdraw consent at any time, according to the legal provisions. Withdrawing consent does not affect the lawfulness of processing based on consent before its withdrawal.",
+    "ninethSection": "In case of doubts related to the processing of personal data, every person can contact the Company with a request for information. In addition, everyone has the right to lodge a complaint with the supervisory authority - the President of the Office for Personal Data Protection."
   }
 }

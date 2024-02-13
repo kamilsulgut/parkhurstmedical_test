@@ -32,6 +32,7 @@ const Footer = () => {
                 <p>{t("companyName")}</p>
                 <p>{t("companyStreet")}</p>
                 <p>{t("companyCity")}</p>
+                <p>{t("country")}</p>
               </div>
               <div className='flex flex-col items-start md:basis-1/3 m-[10px] md:mx-[5px] md:my-[0]'>
                 <p className='font-bold'>{t("telephone")}</p>

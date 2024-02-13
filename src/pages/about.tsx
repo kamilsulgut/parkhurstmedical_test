@@ -24,7 +24,7 @@ export default function About() {
         <section className='header-section'>
           <h1 className='text-center'>{t("pageTitle")}</h1>
         </section>
-        <section className='my-4 text-[var(--text-card)]'>
+        <section className='my-4 text-center text-[var(--text-card)]'>
           <p className=' mt-1 text-xl mt-2'>{t("firstSection")}</p>
           <p className=' mt-1 text-xl mt-2'>{t("secondSection")}</p>
           <p className=' mt-1 text-xl mt-2'>{t("thirdSection")}</p>
