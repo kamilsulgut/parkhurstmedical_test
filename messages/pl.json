@@ -31,7 +31,10 @@
     "contact": "Kontakt",
     "telephone": "Telefon",
     "address": "Adres",
-    "country": "Polska"
+    "country": "Polska",
+
+    "NIP": "NIP",
+    "KRS": "KRS"
   },
   "NotFound": {
     "title": "Przepraszamy, ta strona nie istnieje",
@@ -42,7 +45,7 @@
 
   "Home": {
     "title": "Parkhurst Medical",
-    "pageTitle": "Strna główna",
+    "pageTitle": "Srona główna",
     "description": "Wspólne kształtowanie przyszłości terapii kannabinoidowej w Polsce",
     "for": "Dla lepszej jakości życia",
     "more_1": "Każdy ma prawo do wysokiej jakości życia, wierzymy, że zdrowie i dobre samopoczucie są nieodłącznymi elementami pełnego życia. Misją naszej firmy jest umożliwienie pacjentom wykorzystania w pełni potencjału medycznej marihuany.",

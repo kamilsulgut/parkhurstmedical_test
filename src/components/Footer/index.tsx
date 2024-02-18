@@ -28,11 +28,18 @@ const Footer = () => {
             </div>
             <div className='flex flex-col md:flex-row items-start basis-3/4 mx-[5px] mt-6 md:mt-[0]'>
               <div className='flex flex-col md:basis-1/3 m-[10px] md:m-[0]'>
-                <p className='font-bold'>{t("address")}</p>
-                <p>{t("companyName")}</p>
-                <p>{t("companyStreet")}</p>
-                <p>{t("companyCity")}</p>
-                <p>{t("country")}</p>
+                <div>
+                  <p className='font-bold'>{t("address")}</p>
+                  <p>{t("companyName")}</p>
+                  <p>{t("companyStreet")}</p>
+                  <p>{t("companyCity")}</p>
+                  <p>{t("country")}</p>
+                </div>
+                <div className='mt-[5px]'>
+                  <p>{t("NIP")}: 8842823226</p>
+                  <p>{t("KRS")}: 0001074394</p>
+                  <p>REGON: 527161672</p>
+                </div>
               </div>
               <div className='flex flex-col items-start md:basis-1/3 m-[10px] md:mx-[5px] md:my-[0]'>
                 <p className='font-bold'>{t("telephone")}</p>

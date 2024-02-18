@@ -29,7 +29,9 @@
     "contact": "Contact",
     "telephone": "Phone",
     "address": "Address",
-    "country": "Poland"
+    "country": "Poland",
+    "NIP": "TAX ID",
+    "KRS": "NCR"
   },
   "NotFound": {
     "title": "Sorry, this page does not exist",
