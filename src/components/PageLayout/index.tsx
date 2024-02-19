@@ -33,7 +33,7 @@ export default function PageLayout({
         />
         <meta
           name='keywords'
-          content='medyczna marihuana, przemysł konopny, terapia kannabinoidowa, Parkhurst Medical Poland'
+          content=' parkhurst, parkhurst medical, Parkhurst, Parkhurst Medical,medyczna marihuana, przemysł konopny, terapia kannabinoidowa, Parkhurst Medical Poland, Medical marijuana, cannabis industry, cannabinoid therapy'
         ></meta>
         <meta
           property='og:title'
