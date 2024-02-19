@@ -25,6 +25,7 @@ export const Card = ({
       <BoxImage
         src={src}
         alt={alt}
+        title='text image'
       />
       <div className='m-5 '>
         <h2 className='text-2xl text-[var(--text-card)] font-medium leading-relaxed'>

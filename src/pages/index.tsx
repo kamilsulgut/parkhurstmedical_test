@@ -49,6 +49,7 @@ export default function Index() {
                 src={isMobile ? mainMobilePhoto : desktopPhotoOne}
                 alt={t("photo1Alt")}
                 borderRadius='0.6rem'
+                title='Hero image'
               />
             </div>
           </section>
@@ -59,6 +60,7 @@ export default function Index() {
                 alt={t("photo2Alt")}
                 width={660}
                 borderRadius='0.6rem'
+                title='text image'
               />
             </div>
             <div className='lg:grow-0 lg:basis-[45%] lg:mt-[0] mt-[15px] flex flex-col justify-between align-center px-[10px] '>

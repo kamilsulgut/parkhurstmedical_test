@@ -10,6 +10,7 @@ import { memo } from "react";
 type BoxImageProps = {
   src: string | StaticImageData;
   alt: string;
+  title?: string;
   width?: `${number}` | number;
   height?: `${number}` | number;
   placeholder?: PlaceholderValue;
@@ -33,6 +34,7 @@ const BoxImage = ({
   objectFit = "fill",
   className,
   borderRadius,
+  title = "Image",
 }: BoxImageProps) => {
   return (
     <Image
@@ -53,6 +55,7 @@ const BoxImage = ({
           : { borderTopLeftRadius: "0.6rem", borderTopRightRadius: "0.6rem" }
       }
       className={className ? className : ""}
+      title={title}
     />
   );
 };
