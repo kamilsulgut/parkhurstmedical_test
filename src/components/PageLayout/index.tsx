@@ -54,6 +54,12 @@ export default function PageLayout({
         <link
           rel='canonical'
           href='https://parkhurstmedical.pl/'
+          hrefLang='pl'
+        />
+        <link
+          rel='canonical'
+          href='https://parkhurstmedical.pl/en/'
+          hrefLang='en'
         />
         <meta
           property='og:type'
