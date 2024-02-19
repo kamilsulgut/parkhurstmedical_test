@@ -49,7 +49,7 @@ export default function PageLayout({
         />
         <meta
           property='og:image'
-          content='../../icons/Logo'
+          content='https://parkhurstmedical.pl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FdekstopPhoto_1.5b413577.jpg&w=1920&q=100'
         />
         <link
           rel='canonical'
