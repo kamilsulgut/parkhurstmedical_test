@@ -52,6 +52,7 @@ const CustomSwiper = ({ images, alt }: ICustomSwiper) => {
               quality={70}
               object-fit='cover'
               placeholder='blur'
+              title='Products images'
             />
           </SwiperSlide>
         );

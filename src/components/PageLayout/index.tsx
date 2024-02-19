@@ -47,6 +47,14 @@ export default function PageLayout({
           property='og:url'
           content='https://parkhurstmedical.pl/'
         />
+        <meta
+          property='og:image'
+          content='../../icons/Logo'
+        />
+        <link
+          rel='canonical'
+          href='https://parkhurstmedical.pl/'
+        />
       </Head>
       <Header />
       {children}
