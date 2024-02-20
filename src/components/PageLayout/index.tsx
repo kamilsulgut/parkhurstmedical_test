@@ -4,7 +4,6 @@ import { Analytics } from "@vercel/analytics/react";
 
 import Header from "../Header";
 import Footer from "../Footer";
-import Logo from "../../images/LogoPng.png";
 
 type Props = {
   children?: ReactNode;
@@ -83,6 +82,11 @@ export default function PageLayout({
           sizes='167x106'
           href='../../images/LogoPng.png'
         ></link>
+        <link
+          rel='icon'
+          href='../../../public/favicon.ico'
+          sizes='any'
+        />
       </Head>
       <Header />
       {children}
