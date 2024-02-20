@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/react";
 
 import Header from "../Header";
 import Footer from "../Footer";
+import Logo from "../../images/LogoPng.png";
 
 type Props = {
   children?: ReactNode;
@@ -31,6 +32,11 @@ export default function PageLayout({
           hrefLang='en'
           href='https://parkhurstmedical.pl/en/'
         />
+        <link
+          rel='alternate'
+          hrefLang='pl'
+          href='https://parkhurstmedical.pl/'
+        />
         <meta
           name='keywords'
           content=' parkhurst, parkhurst medical, Parkhurst, Parkhurst Medical,medyczna marihuana, przemysł konopny, terapia kannabinoidowa, Parkhurst Medical Poland, Medical marijuana, cannabis industry, cannabinoid therapy'
@@ -56,15 +62,15 @@ export default function PageLayout({
           href='https://parkhurstmedical.pl/'
           hrefLang='pl'
         />
-        <link
-          rel='canonical'
-          href='https://parkhurstmedical.pl/en/'
-          hrefLang='en'
-        />
         <meta
           property='og:type'
           content='website'
         />
+        <link
+          rel='apple-touch-icon'
+          sizes='167x106'
+          href='../../images/LogoPng.png'
+        ></link>
       </Head>
       <Header />
       {children}
