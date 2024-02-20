@@ -87,6 +87,10 @@ export default function PageLayout({
           href='../../../public/favicon.ico'
           sizes='any'
         />
+        <link
+          rel='manifest'
+          href='../../../manifest.json'
+        />
       </Head>
       <Header />
       {children}
