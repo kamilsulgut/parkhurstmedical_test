@@ -42,8 +42,20 @@ export default function PageLayout({
           content=' parkhurst, parkhurst medical, Parkhurst, Parkhurst Medical,medyczna marihuana, przemysł konopny, terapia kannabinoidowa, Parkhurst Medical Poland, Medical marijuana, cannabis industry, cannabinoid therapy'
         ></meta>
         <meta
+          property='og:locale'
+          content='pl_PL'
+        ></meta>
+        <meta
+          property='og:locale'
+          content='en_US'
+        />
+        <meta
+          property='og:site_name'
+          content='Parkhurst Medical'
+        ></meta>
+        <meta
           property='og:title'
-          content='Parkhurst Medical Poland'
+          content='Parkhurst Medical'
         />
         <meta
           property='og:description'
