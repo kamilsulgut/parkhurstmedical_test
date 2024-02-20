@@ -42,12 +42,8 @@ export default function PageLayout({
         ></meta>
         <meta
           property='og:locale'
-          content='pl_PL'
+          content='pl_pl'
         ></meta>
-        <meta
-          property='og:locale'
-          content='en_US'
-        />
         <meta
           property='og:site_name'
           content='Parkhurst Medical'
