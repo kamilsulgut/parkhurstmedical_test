@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/react";
 
 import Header from "../Header";
 import Footer from "../Footer";
+import a from "../../icons/favicon.ico";
 
 type Props = {
   children?: ReactNode;
@@ -78,11 +79,7 @@ export default function PageLayout({
           sizes='167x106'
           href='../../images/LogoPng.png'
         ></link>
-        <link
-          rel='icon'
-          href='../../../public/favicon.ico'
-          sizes='any'
-        />
+
         <link
           rel='manifest'
           href='../../../manifest.json'
